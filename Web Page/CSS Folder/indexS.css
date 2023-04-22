@@ -4,10 +4,8 @@ body {
 }
 
 header {
-  position: absolute;
   width: 100%;
   height: 50px;
-  background-color: #3c3c3c;
   color: #ffffff;
 }
 
@@ -19,9 +17,14 @@ footer {
   background-color: #3c3c3c;
 }
 
+/* Reparar */
+#test {
+  margin-left: 20%;
+}
+
 #topimg {
   width: 100%;
-  height: 340px;
+  height: 500px;
 }
 
 /* SEGMENT SECTION */
@@ -70,9 +73,7 @@ footer {
 }
 
 #tb4 {
-  max-width: 100%;
-  margin-left: 15%;
-  margin-right: 15%;
+  max-width: 900px;
   padding: 0 5%;
 }
 
@@ -113,8 +114,33 @@ footer {
 }
 
 /* FONTCLASS SECTION */
+
+.mairala1 {
+  letter-spacing: 1px;
+  font-family: Oleo Script;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.navfont {
+  text-align: center;
+  font-weight: bold;
+  font-family: Raleway;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.mairala2 {
+  letter-spacing: 1px;
+  font-family: Oleo Script;
+  font-weight: bold;
+  font-size: 30px;
+  color: #756d68;
+}
+
 .hs1 {
   text-align: center;
+  font-weight: bold;
   font-family: Raleway;
   font-size: 110%;
   color: #756d68;
@@ -122,19 +148,23 @@ footer {
 
 .hhs1 {
   text-align: center;
+  font-weight: bold;
   font-family: Raleway;
   font-size: 82%;
   color: #000000;
 }
 
 .hs2 {
+  margin-top: 10px;
   text-align: center;
+  font-weight: bold;
   font-size: 75%;
   font-family: Raleway;
   color: #000000;
 }
 
 .hhs2 {
+  font-weight: bold;
   font-size: 82%;
   font-family: Raleway;
 
@@ -143,6 +173,7 @@ footer {
 
 .hs3 {
   text-align: center;
+  font-weight: bold;
   font-size: 130%;
   font-family: Raleway;
   color: #756d68;
