@@ -17,12 +17,65 @@ footer {
   background-color: #3c3c3c;
 }
 
+#navTop {
+  z-index: 5;
+}
+
+/* Cambiar nombre - rescalar imagen carusel */
 #test {
   margin-left: 20%;
 }
 
 #topimg {
   width: 100%;
+}
+
+#heroDiv {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-top: 6%;
+}
+
+@media screen and (max-width: 881px) {
+  .heroText1 {
+    font-size: 4px !important;
+  }
+
+  .heroText2 {
+    font-size: 10px !important;
+  }
+
+  .headsp {
+
+    font-size: 10px !important;
+
+  }
+}
+
+#heroButton {
+  border-color: transparent;
+  border-radius: 4px;
+  height: 35px;
+  width: 150px;
+  z-index: 1;
+  background: url("../Images_Folder/downloadButton.png") no-repeat center;
+  background-size: 250px 150px;
+  background-color: #756d68;
+}
+
+@media screen and (max-width: 488px) {
+  .mobilecarusel {
+    max-height: 160px;
+  }
+}
+
+@media screen and (min-width: 489px) and (max-width: 830px) {
+  .mobilecarusel {
+    max-height: 160px;
+  }
 }
 
 /* SEGMENT SECTION */
@@ -228,33 +281,8 @@ footer {
   max-width: 100%;
 }
 
-.heroText1 {
-  position: absolute;
-  top: 20%;
-  left: 15%;
-  z-index: 1;
-  color: #ffffff;
-}
-
-.heroText2 {
-  position: absolute;
-  top: 30%;
-  left: 15%;
-  z-index: 1;
-  color: #ffffff;
-}
-
 .heroimg {
   width: inherit;
-}
-
-.heroButton {
-  position: absolute;
-  top: 60%;
-  left: 15%;
-  z-index: 1;
-  width: 30px;
-  /* background-image: url("Web Page/Images Folder"); */
 }
 
 /* FONTCLASS SECTION */
@@ -277,6 +305,28 @@ footer {
 .carouselHeight1 {
   z-index: -1;
   max-height: 400px;
+}
+
+.heroText1 {
+  z-index: 1;
+  font-size: 16px;
+  font-family: Raleway;
+  color: #ffffff;
+}
+
+.heroText2 {
+  z-index: 1;
+  font-size: 36px;
+  font-family: Raleway;
+  color: #ffffff;
+}
+
+.headsp {
+  text-align: center;
+  font-weight: bold;
+  font-family: Raleway;
+  font-size: 36px;
+  color: #756d68;
 }
 
 .imgHeight1 {
