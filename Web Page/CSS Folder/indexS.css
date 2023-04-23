@@ -36,6 +36,20 @@ footer {
   padding: 0 10%;
 }
 
+@media screen and (max-width: 488px) {
+  #content1 {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+@media screen and (min-width: 489px) and (max-width: 830px) {
+  #content1 {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
 #content2 {
   display: flex;
   justify-content: center;
@@ -46,6 +60,22 @@ footer {
   padding: 0 7%;
 }
 
+@media screen and (max-width: 488px) {
+  #content2 {
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 2%;
+  }
+}
+
+@media screen and (min-width: 489px) and (max-width: 830px) {
+  #content2 {
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 2%;
+  }
+}
+
 #content3 {
   display: flex;
   flex-direction: column;
@@ -53,6 +83,22 @@ footer {
   margin-left: 30%;
   margin-right: 30%;
   margin-top: 3%;
+}
+
+@media screen and (max-width: 488px) {
+  #content3 {
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 3%;
+  }
+}
+
+@media screen and (min-width: 489px) and (max-width: 830px) {
+  #content3 {
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 3%;
+  }
 }
 
 #midhr {
@@ -124,16 +170,29 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  margin-left: 30%;
+  margin-right: 30%;
   height: 300px;
   background-color: #3c3c3c;
   color: #ffffff;
 }
 
+@media screen and (max-width: 488px) {
+  #footerh1 {
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+}
+
+@media screen and (min-width: 489px) and (max-width: 830px) {
+  #footerh1 {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
 #tb2 {
   justify-content: center;
-  margin-left: 30%;
-  margin-right: 30%;
   margin-top: 3%;
   font-family: Raleway;
   font-size: 10px;
@@ -141,9 +200,10 @@ footer {
 }
 
 .tb2Colum {
-  width: 1%;
+  width: 25%;
   padding: 1%;
   text-align: left;
+  line-height: initial;
 }
 
 #footerh2 {
@@ -166,6 +226,35 @@ footer {
 
 .imgs4 {
   max-width: 100%;
+}
+
+.heroText1 {
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  z-index: 1;
+  color: #ffffff;
+}
+
+.heroText2 {
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  z-index: 1;
+  color: #ffffff;
+}
+
+.heroimg {
+  width: inherit;
+}
+
+.heroButton {
+  position: absolute;
+  top: 60%;
+  left: 15%;
+  z-index: 1;
+  width: 30px;
+  /* background-image: url("Web Page/Images Folder"); */
 }
 
 /* FONTCLASS SECTION */
@@ -281,3 +370,5 @@ footer {
   font-family: Raleway;
   color: #756d68;
 }
+
+/* -------- */
