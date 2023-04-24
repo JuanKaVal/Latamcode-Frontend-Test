@@ -217,7 +217,6 @@ footer {
   color: #ffffff;
 }
 
-
 .navfont {
   text-align: center;
   font-weight: bold;
@@ -226,12 +225,10 @@ footer {
   color: #ffffff;
 }
 
-
 .carouselHeight1 {
   z-index: -1;
   max-height: 400px;
 }
-
 
 .heroText1 {
   z-index: 1;
@@ -240,14 +237,12 @@ footer {
   color: #ffffff;
 }
 
-
 .heroText2 {
   z-index: 1;
   font-size: 36px;
   font-family: Raleway;
   color: #ffffff;
 }
-
 
 .headsp {
   text-align: center;
@@ -257,21 +252,17 @@ footer {
   color: #756d68;
 }
 
-
 .imgHeight1 {
   max-height: inherit;
 }
-
 
 .carouselHeight2 {
   max-height: 300px;
 }
 
-
 .imgHeight2 {
   max-height: inherit;
 }
-
 
 .formHolder1 {
   width: 40%;
@@ -354,6 +345,14 @@ footer {
   color: #756d68;
 }
 
+.materialIc {
+  font-size: 120%;
+}
+
+.twitterUser {
+  color: #756d68;
+}
+
 /* -Mobile Section- */
 
 @media screen and (max-width: 831px) {
@@ -366,9 +365,7 @@ footer {
   }
 
   .headsp {
-
     font-size: 13px !important;
-
   }
 }
 
@@ -401,7 +398,6 @@ footer {
 }
 
 @media screen and (max-width: 488px) {
-
   .mobilecarusel {
     max-height: 160px;
   }
